@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Perkenalan</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('background.jpg'); /*https://photos.app.goo.gl/H7n155EQMqGSw3od6 */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 50px;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7); /* Transparansi hitam untuk kontras teks */
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 100%;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .profile-info {
+            margin: 20px 0;
+        }
+        .profile-info a {
+            color: #f1c40f;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .profile-info a:hover {
+            color: #e67e22;
+        }
+        #greeting {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .profile-photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+        <audio controls autoplay loop>
+  <source src="musikintro.mp3" type="audio/mp3">
+</audio>
+
+<img src="gife1.gif" alt="Deskripsi mp4" width="325">
+
+    <div class="container">
+<h2><img src="gife3.gif" alt="Gif without background" height="130" width="265"></h2>
+        <h1>Selamat Datang di Halaman Perkenalan</h1>
+
+        <p>siapa nama kamu???</p>
+        <!-- Form input nama pengguna -->
+        <form id="nameForm">
+            <input type="text" id="nama" placeholder="Masukkan Nama Anda" required>
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Area untuk menampilkan pesan sambutan -->
+        <div id="greeting"></div>
+
+        <!-- Foto profil dan informasi profil -->
+        <img src="background.jpg" alt="Foto Profil" class="profile-photo"> <!-- URL gambar profil -->
+        
+        <div class="profile-info">
+            <h2>Profil Saya</h2>
+            <p>Nama: Ramon</p>
+            <p>Profesi: Siswa</p>
+            <p>hobi: Bulutangkis</p>
+            <p>Lokasi: Lahat, sumsel , Indonesia</p>
+            <h2>INFORMASI TENTANG SAYA</h2>
+            <p>hallo kamu love youuuuuuu,saya ramon saya bersemangat di bidang "OLAHRAGA dan PEMOGRAMAN. saya selalu tertarik untuk belajar hal baru".!</p>
+            
+            <h4>• OLAHRAGA ? </h4> <small>Olahraga adalah aktivitas fisik yang dilakukan dengan tujuan untuk menjaga atau meningkatkan kebugaran tubuh, kesehatan, serta meningkatkan kemampuan fisik seseorang. Selain itu, olahraga juga bisa dilakukan sebagai bentuk hiburan, rekreasi, dan kompetisi, baik secara individu maupun tim. Ada berbagai macam jenis olahraga, mulai dari yang sederhana seperti berlari atau berenang, hingga yang lebih kompleks seperti sepak bola, bulu tangkis, basket, dan lain-lain.
+
+Manfaat olahraga tidak hanya terbatas pada kesehatan fisik, tetapi juga memberikan dampak positif pada kesehatan mental, seperti mengurangi stres, meningkatkan suasana hati, serta meningkatkan kualitas tidur.</small>
+            
+            <h4>PEMROGRAMAN ?</h4> <small>Pemrograman adalah proses menulis, menguji, memperbaiki, dan memelihara kode yang menjadi instruksi bagi komputer untuk menjalankan tugas tertentu. Kode ini ditulis dalam bahasa pemrograman seperti Python, Java, C++, dan lainnya. Pemrograman memungkinkan kita membuat perangkat lunak, aplikasi, situs web, game, dan berbagai teknologi lainnya.
+
+Tujuan utama pemrograman adalah untuk mengubah ide atau konsep menjadi sistem yang dapat bekerja secara otomatis di komputer atau perangkat digital. Dalam pemrograman, seorang pemrogrammer akan menggunakan logika dan algoritma untuk memecahkan masalah dan mengimplementasikannya dalam bentuk kode yang dapat dipahami oleh mesin.</small>
+            
+            <small>dan saya membuat web ini mengunakan html dan saya juga mengunakan js dan css 
+            apa itu html js dan css baca di bawah</small>
+            
+            <h4>HTML (HyperText Markup Language), CSS (Cascading Style Sheets)</h4> <h4>dan JavaScript (JS)</h4> adalah tiga teknologi utama yang digunakan untuk membangun dan merancang situs web.kita mulai dari HTML.
+            
+            <h4>HTML (HyperText Markup Language) ?</h4>
+            <small>HTML adalah bahasa markup yang digunakan untuk membuat struktur dan konten pada halaman web. Dengan HTML, kita dapat menentukan elemen-elemen seperti teks, gambar, tabel, tautan, dan formulir. HTML tidak berfokus pada tampilan halaman, tetapi lebih pada penyusunan elemen-elemen yang nantinya dapat diatur tampilannya dengan CSS.Contoh:</small>
+            <img src="contoh1.png" alt="Deskripsi gambar" width="200" height="105">
+            
+            <h4>CSS (Cascading Style Sheets) ?</h4>
+            <small>CSS digunakan untuk mengatur tampilan atau desain dari elemen-elemen HTML. CSS memungkinkan kita untuk mengatur warna, font, layout, dan tata letak halaman secara keseluruhan. Dengan CSS, tampilan halaman web menjadi lebih menarik dan responsif di berbagai perangkat.Contoh:</small>
+            <img src="contohcss.png" alt="Deskripsi gambar" width="200" height="105">
+            
+            <h4>JS (JavaScript) ?</h4>
+            <small>JavaScript adalah bahasa pemrograman yang digunakan untuk menambahkan interaktivitas pada halaman web. Dengan JavaScript, kita bisa membuat halaman lebih dinamis dan interaktif, seperti validasi formulir, pembuatan animasi, hingga pemrosesan data secara real-time.Contoh:</small>
+            ,<img src="contohjs.png" alt="Deskripsi gambar" width="225" height="105">
+            
+            <p><small>Dengan menggabungkan ketiganya, kita dapat membuat situs web yang memiliki struktur baik (HTML), tampilan yang menarik (CSS), dan fungsionalitas interaktif (JavaScript).</small></p>
+            
+<p></p><small>jika ingin mengajak bulutangkis bisa hubungi saya melalui whatsApp dan instagram di bawah!!!!!</small><p/>
+            
+            <p><small>⚠️INFO INI AKAN SELALU DI UPDATE⚠️</small></p>
+
+            <h3>Hubungi Saya</h3>
+            <p><a href="https://wa.me/6282183977225" target="_blank">WhatsApp</a></p>
+            <p><a href="https://www.instagram.com/tolak_angin.s?igsh=MW9jM3h1MXpqdzh6OA==" target="_blank">Instagram</a></p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript untuk menampilkan pesan sambutan setelah nama diinput
+        document.getElementById("nameForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Mencegah reload halaman
+            var nama = document.getElementById("nama").value; // Mendapatkan nama pengguna dari input
+            var greeting = "Halo " + nama + ", selamat datang di halaman saya!•success dikirim ke 'RAMON'•";
+            document.getElementById("greeting").innerText = greeting; // Menampilkan pesan sambutan
+        });
+    </script>
+
+</body>
+</html>
